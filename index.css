@@ -1,0 +1,70 @@
+.body-light{
+    background-color: white;
+    color: black;
+}
+
+.headimage {
+    background-image: url("images/indus1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.body-1{
+    margin: 40px auto;
+
+}
+
+.body-1-container{
+    background-image: url("images/white-2.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 6px 4px 6px 0px #7d7d7d;
+}
+
+
+.body-row1{
+    background-color: #dbdbdb;
+}
+
+.body-1_img1{
+    width: 100%;
+}
+
+.body-row2{
+    background-color: #c3c3c3;
+}
+
+.caro-1{
+    color: red;
+}
+
+.car-1-1{
+    margin: 10px;
+    background-color: red;
+}
+
+.main-2{
+    box-shadow: 6px 4px 6px 0 #7d7d7d;
+}
+
+.main-car-1{
+    background-color: #acacac;
+    box-shadow: 6px 4px 6px 0 #7d7d7d;
+}
+
+.main-car-1-1{
+    background-color: rgb(245,222,179);
+    padding-left: 20px;
+}
+
+.main-car-1-2{
+    background-color: #cfcfcf;
+    padding-left: 20px;
+}
+
+.main-car-1-3{
+    background-color: #b5b5b5;
+    padding-left: 20px;
+}
