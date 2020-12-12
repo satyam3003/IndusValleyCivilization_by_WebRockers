@@ -6,16 +6,9 @@ html{
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%
   }
-header{
-  background-color: rgb(255,255,255);
-  background-image: url("images/indus1.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%; 
-  padding: 10%;
-}
+
 h1{
   text-align: center;
-  color: #FFFFFF;
   font-size:50px;
   font-family: "Montserrat", sans-serif;
   margin:2%
