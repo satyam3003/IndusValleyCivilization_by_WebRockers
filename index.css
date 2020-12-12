@@ -1,6 +1,17 @@
-.body-light{
+body, html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+.body-light {
     background-color: white;
     color: black;
+}
+
+.body-dark{
+    background-color: #212121;
+    color: white;
 }
 
 .headimage {
@@ -9,62 +20,358 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
+    text-align: center;
 }
 
-.body-1{
+/*/animation*/
+.ml12 {
+    color: black;
+    font-weight: 1000;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    position: relative;
+    top: 20vh;
+}
+
+.ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+@media (max-width: 1250px) {
+    .ml12 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 750px) {
+    .ml12 {
+        font-size: 1.3em;
+    }
+}
+
+/*animation end*/
+
+.body-1 {
     margin: 40px auto;
 
 }
 
-.body-1-container{
+.body-1-container {
     background-image: url("images/white-2.jpg");
     background-position: center;
     background-size: cover;
-    box-shadow: 6px 4px 6px 0px #7d7d7d;
+
 }
 
+.body-1-container-light{
+    box-shadow: 6px 4px 6px 0 #7d7d7d;
+}
 
-.body-row1{
+.body-1-container-dark{
+    box-shadow: 6px 4px 6px 0 #b3b3b3;
+}
+
+.body-row1-light {
     background-color: #dbdbdb;
+    transition: background-color 2s,color 2s;
 }
 
-.body-1_img1{
+.body-row1-light:hover{
+    background-color: #454545;
+    color: white;
+}
+
+.body-row1-dark{
+    background-color: #222222;
+    transition: background-color 2s,color 2s;
+}
+
+.body-row1-dark:hover{
+    background-color: #a7a7a7;
+    color: black;
+}
+
+
+.body-1_img1 {
     width: 100%;
 }
 
-.body-row2{
+.body-col1-2, .body-col2-2{
+    padding: 20px 10px;
+}
+
+
+.body-row2-light {
     background-color: #c3c3c3;
+    transition: background-color 2s,color 2s;
 }
 
-.caro-1{
-    color: red;
+.body-row2-light:hover {
+    background-color: #6d6d6d;
+    color: white;
 }
 
-.car-1-1{
-    margin: 10px;
-    background-color: red;
+.body-row2-dark {
+    background-color: #6d6d6d;
+    transition: background-color 2s,color 2s;
 }
 
-.main-2{
+.body-row2-dark:hover {
+    background-color: #c3c3c3;
+    color: black;
+}
+
+
+
+
+.main-2 {
     box-shadow: 6px 4px 6px 0 #7d7d7d;
 }
 
-.main-car-1{
-    background-color: #acacac;
-    box-shadow: 6px 4px 6px 0 #7d7d7d;
+
+.round-1 {
+    position: absolute;
+    right: 50vw;
+    top: 50vh;
+    z-index: -5;
 }
 
-.main-car-1-1{
-    background-color: rgb(245,222,179);
-    padding-left: 20px;
+.round-2 {
+    position: absolute;
+    left: 50vw;
+    top: 200vh;
+    z-index: -5;
 }
 
-.main-car-1-2{
-    background-color: #cfcfcf;
-    padding-left: 20px;
+.body-2_img1 {
+    width: 70%;
+    border-radius: 10px;
+    /*box-shadow: 0 0 20px 2px white ;*/
+    margin: 20px 0;
 }
 
-.main-car-1-3{
-    background-color: #b5b5b5;
-    padding-left: 20px;
+/*monuments*/
+
+.monuments {
+    margin: 40px auto;
 }
+
+.monum-col {
+    text-align: center;
+}
+
+.mohenjodaro {
+    background-image: url("images/indus2-black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacity-mon-1 {
+    background-color: #ffffff54;
+    padding: 50px 30px;
+}
+
+
+.harappa {
+    background-image: url("images/Mohenjo-Daro-2-black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacity-mon-2 {
+    background-color: #3d3d3d47;
+    padding: 50px 30px;
+}
+
+.priest-king {
+    background-image: url("images/priest-king-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacity-mon-3 {
+    background-color: #5a5a5aa6;
+    padding: 50px 30px;
+}
+
+.great-bath {
+    background-image: url("images/great-bath-black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opacity-mon-4 {
+    background-color: #5a5a5aa6;
+    padding: 50px 30px;
+}
+
+.monument-text-light {
+    background-color: #dbdbdb9c;
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 10px solid black;
+    transition: background-color 2s, border-bottom-color 2s,color 1s;
+}
+
+.monument-text-light:hover{
+    background-color: #212121;
+    color: white;
+    border-bottom-color:white;
+}
+
+.monument-text-dark{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #212121;
+    border-bottom: 10px solid white;
+    transition: background-color 2s, border-bottom-color 2s,color 1s;
+}
+
+.monument-text-dark:hover{
+    background-color: #dbdbdb9c;
+    color: black;
+    border-bottom-color:black;
+}
+
+.reviews {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.round-1-2 {
+    position: absolute;
+    right: 50vw;
+    bottom: 100vh;
+    z-index: -5;
+}
+
+.round-2-2 {
+    position: absolute;
+    left: 50vw;
+    bottom: 30vh;
+    z-index: -5;
+}
+
+
+/*card*/
+
+.card {
+    margin: 40px auto;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.card-light{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px 1px #454545;
+    transition: background-color 2s, color 2s;
+}
+
+.card-light:hover{
+    background-color: black;
+    color: white;
+}
+
+.card-dark{
+    background-color: #2d2d2d;
+    box-shadow: 0px 0px 30px 1px #e3e3e3;
+    transition: background-color 2s, color 2s;
+}
+
+.card-dark:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.card-top-2, .card-top-1 {
+    height: 120px;
+    background-image: url("images/review-top-2.jpg");
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.card-img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid white;
+    top: 75px;
+}
+
+.card-main {
+    padding-top: 50px;
+}
+
+.card-main-top {
+    padding-bottom: 10px;
+}
+
+.card-main-bottom {
+    padding: 20px 0;
+}
+
+.light-text {
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 1.2;
+}
+
+.card-maintext {
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+/*card end*/
+
+.review-line {
+    margin-top: 50px;
+}
+
+
+/*End Section*/
+.end-section-light {
+    padding: 30px;
+    text-align: center;
+    background-color: #cbcbcb;
+    color: black;
+}
+
+.iconcontact-light {
+    margin: 30px;
+    color: black;
+    transition: color 1s;
+}
+
+.iconcontact-light:hover {
+    color: #565656;
+}
+
+.end-section-dark {
+    padding: 30px;
+    text-align: center;
+    background-color: #181818;
+    color: white;
+}
+
+.iconcontact-dark {
+    margin: 30px;
+    color: white;
+    transition: color 1s;
+}
+
+.iconcontact-dark:hover {
+    color: #b3b3b3;
+}
+

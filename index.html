@@ -12,13 +12,14 @@
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     <link rel="stylesheet" href="index.css">
-
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/df65e24a0c.js"></script>
 </head>
-<body class="body-light">
+<body class="body-swap body-dark">
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="nav-swap navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <img src="images/logo.png" alt="" width="80px;">
+            <a class="navbar-brand" href="#">WebRockers</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,131 +30,226 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="gallery2.html">Gallery</a>
+                        <a class="nav-link " href="#">Discover</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Gallery</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-light" type="button">Light</button>
+                    <button type="button" class="btn btn-dark">Dark</button>
                 </form>
             </div>
         </div>
     </nav>
 
     <section class="headimage">
+        <h1 class="ml12"><u>Indus Valley civilization</u></h1>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     </section>
 </header>
+
+<img class="round-1" src="images/bg-pattern-top.svg" alt="">
+<img class="round-2" src="images/bg-pattern-bottom.svg" alt="">
+
 <section class="body-1">
-    <div class="container body-1-container">
-        <div class="row justify-content-center body-row1">
-            <div class="col-7">
+    <div class="body-1-container-swap container body-1-container body-1-container-dark">
+        <div class="body-row1-swap  row justify-content-center body-row1-dark">
+            <div class="col-12 col-md-7">
                 <img class="body-1_img1" src="images/indus2.jpg" alt="">
             </div>
-            <div class="col-5 align-self-center body-col1-2">
+            <div class="col-12 col-md-5 align-self-center body-col1-2">
                 <h2>About Indus Valley Civilization</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequatur ea eaque impedit iure
-                    repellat sequi vitae. Est id in pariatur suscipit! Asperiores ducimus, eaque eos eveniet fugiat
-                    nesciunt voluptatem.</p>
+                <p>Indus Valley Civilization was discovered in the Southern Asia in early 20th century. This is a Bronze
+                    Age Civilization dating back to 3000 BCE to 1000 BCE. This civilization was located
+                    at the basins of Indus River and is widespread starting from Northeast Afghanistan,
+                    Pakistan till the north western India.</p>
             </div>
         </div>
-        <div class="row justify-content-center body-row2">
-            <div class="col-4">
+
+        <div class="body-row2-swap row justify-content-center body-row2-dark">
+            <div class="col-12 col-md-4">
                 <img class="body-1_img1" src="images/wall-2.jpg" alt="">
             </div>
-            <div class="col-4 align-self-center body-col2-2">
-                <h3>Culture of Indus Valley</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequatur ea eaque impedit iure
-                    repellat sequi vitae. Est id in pariatur suscipit! Asperiores ducimus, eaque eos eveniet fugiat
-                    nesciunt voluptatem.</p>
+            <div class="col-12 col-md-4  align-self-center body-col2-2">
+                <h3>Architecture of Indus Valley</h3>
+                <p>The cities of this civilization consists of well laid-out streets and fine houses
+                    constructed with baked bricks. The most surprising and impressing thing of these cities
+                    are their planned drainage and water supply systems. The great baths, city walls, granaries,
+                    warehouses, dockyards also shows the advanced architecture of the Indus valley Civilization.</p>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img class="body-1_img1" src="images/Mohenjo-Daro-2-1.jpg" alt="">
             </div>
         </div>
-        <div class="row justify-content-center body-row1">
-            <div class="col-5 align-self-center body-col1-2">
-                <h2>Origin of Indus Valley</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequatur ea eaque impedit iure
-                    repellat sequi vitae. Est id in pariatur suscipit! Asperiores ducimus, eaque eos eveniet fugiat
-                    nesciunt voluptatem.</p>
+        <div class="body-row1-swap row justify-content-center body-row1-dark">
+            <div class="col-12 col-md-5 align-self-center body-col1-2">
+                <h2>Lifestyle in Indus Valley Civilization</h2>
+                <p>Among all the civilizations that are known, Indus Valley Civilization appears to have developed and
+                    thrived without warfare or violent competitions. There are no palaces to be discovered and
+                    very few structures can be identified as having had a religious function. Agriculture and Animal
+                    Husbandry along with trading seems to be the major occupation of this civilization.</p>
             </div>
-            <div class="col-7">
+            <div class="col-12 col-md-7">
                 <img class="body-1_img1" src="images/boat.jpg" alt="">
             </div>
         </div>
     </div>
 </section>
 
-<section>
-    <div class="container main-car-1">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div>
-                        <div class="row align-items-center main-car-1-1">
-                            <div class="col-7">
-                                <h1>Mohenjo-daro</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur
-                                    explicabo
-                                    magni, molestias perferendis quas quibusdam reiciendis? A accusantium delectus
-                                    dolore nisi placeat possimus quam sapiente sed. Adipisci enim, impedit!</p>
-                            </div>
-                            <div class="col-5">
-                                <img class="body-1_img1" src="images/indus5-1.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div>
-                        <div class="row align-items-center main-car-1-2">
-                            <div class="col-7">
-                                <h1>Harappa Civilization</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur
-                                    explicabo
-                                    magni, molestias perferendis quas quibusdam reiciendis? A accusantium delectus
-                                    dolore nisi placeat possimus quam sapiente sed. Adipisci enim, impedit!</p>
+<section class="monuments">
+    <div class="mohenjodaro">
+        <div class="opacity-mon-1">
+            <div class="container">
+                <div class="row align-items-center ">
 
-                            </div>
-                            <div class="col-5">
-                                <img class="body-1_img1" src="images/harappa-1.jpg" alt="">
-                            </div>
-                        </div>
+                    <div class="col-12 col-md-6 monum-col">
+                        <img class="body-2_img1" src="images/indus3.jpg" alt="">
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div>
-                        <div class="row align-items-center main-car-1-3">
-                            <div class="col-7">
-                                <h1>Harappa Civilization</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur
-                                    explicabo
-                                    magni, molestias perferendis quas quibusdam reiciendis? A accusantium delectus
-                                    dolore nisi placeat possimus quam sapiente sed. Adipisci enim, impedit!</p>
-                            </div>
-                            <div class="col-5">
-                                <img class="body-1_img1" src="images/indus5-1.jpg" alt="">
-                            </div>
-                        </div>
+                    <div class="col-12 monument-text-swap col-md-6 order-md-first monument-text-dark">
+                        <h1>Mohenjo daro</h1>
+                        <p>Mohenjo-daro is one of the largest settlements found in Sindh region of Pakisthan. Its
+                            excavation began in 1922 and the grid planned city along with various artifact seals were
+                            discovered. The Great-Bath is one of the major buildings located at Mohenjo-daro</p>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </a>
+        </div>
+    </div>
+
+    <div class="harappa">
+        <div class="opacity-mon-2">
+            <div class="container">
+                <div class="row align-items-center ">
+                    <div class="col-12 col-md-6  monum-col">
+                        <img class="body-2_img1" src="images/harappa-1.jpg" alt="">
+                    </div>
+                    <div class="col-12 monument-text-swap col-md-6 monument-text-dark">
+                        <h1>Harappa Civilization</h1>
+                        <p>Harappa is a 150 acres archaeological site located in the Punjab region of Pakisthan. This
+                            city is known for its fortified wall around the city, the clay brick houses and the
+                            artifacts and
+                            the seals with an unknown script which suggests that the city dated back to 2600 BC to 1900
+                            BCE.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="priest-king">
+        <div class="opacity-mon-3">
+            <div class="container">
+                <div class="row align-items-center ">
+
+                    <div class="col-12 col-md-6  monum-col">
+                        <img class="body-2_img1" src="images/priest-king.jpg" alt="">
+                    </div>
+                    <div class="monument-text-swap col-12 col-md-6 order-md-first monument-text-dark">
+                        <h1>The Priest-King</h1>
+                        <p>Priest King statue was discovered at the Mohejo-daro archaeological site and is marked to be
+                            dated from 2200BCE to 1900 BCE. This statue carved of a stone is decorated with a robe on
+                            the left shoulder with sacred
+                            symbols along with well carved jewellery on the hand and fore-head.
+                            This statue considered as a priest may be an evidence that the civilization was run by
+                            priests.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="great-bath">
+        <div class="opacity-mon-4">
+            <div class="container">
+                <div class="row align-items-center ">
+                    <div class="col-12 col-md-6  monum-col">
+                        <img class="body-2_img1" src="images/g-b.jpg" alt="">
+                    </div>
+                    <div class="monument-text-swap col-12 col-md-6 monument-text-dark">
+                        <h1>GREAT BATH</h1>
+                        <p>The Great Bath is a public building structure that was discovered at Mohenjo-daro which might
+                            belong to 3000 BCE.
+                            This structure is known as the " Earliest Watertank of the ancient world." The tank of 11.88m
+                            x 7.01m with a depth of
+                            2.43m approx. is said to be waterproofed with help of finely fitted bricks, mud plaster and
+                            bitumen that was used
+                            in the tank.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
+<section class="reviews">
+    <img class="round-1-2" src="images/bg-pattern-top.svg" alt="">
+    <img class="round-2-2" src="images/bg-pattern-bottom.svg" alt="">
+    <h2>REVIEW</h2>
 
+    <div class="row align-items-center review-line">
+        <div class="col-12 col-md-1"></div>
+        <div class="col-12 col-md-5 ">
+            <div class="card-swap card card-dark">
+                <div class="card-top-1">
+                    <img class="card-img" src="images/man.jpg" alt="person">
+                </div>
+                <div class="card-main">
+                    <div class="card-main-top">
+                        <h3 style="line-height: 0.5;" class="card-maintext"><b>Aman Singh</b> <span
+                                class="light-text">&nbsp;34</span>
+                        </h3>
+                        <p class="light-text">India</p>
+                    </div>
+                    <hr style="border: none; background-color: hsl(0, 0%, 59%); height: 1px;">
+                    <div class="card-main-bottom">
+                        <p class="light-text">
+                            The Remains of indus valley itself depicts its real time glory.
+                            The place is heaven for Architects and Conservetionalist.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-5">
+            <div class="card-swap card card-dark">
+                <div class="card-top-2">
+                    <img class="card-img" src="images/image-victor.jpg" alt="person">
+                </div>
+                <div class="card-main">
+                    <div class="card-main-top">
+                        <h3 style="line-height: 0.5;" class="card-maintext"><b>Victor Crest</b> <span
+                                class="light-text">&nbsp;26</span>
+                        </h3>
+                        <p class="light-text">London</p>
+                    </div>
+                    <hr style="border: none; background-color: hsl(0, 0%, 59%); height: 1px;">
+                    <div class="card-main-bottom">
+                        <p class="light-text">
+                            This place is closely connected to the history of man-kind. You will be amazed to see the
+                            technology and the architecture of this place.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-1"></div>
+</section>
+
+<section class="end-section-swap end-section-dark">
+    <h2>Contact Us</h2>
+    <h2><a href=""><i class="iconcontact-swap fab fa-facebook-square iconcontact-dark fa-2x"></i></a>
+        <a href=""><i class="iconcontact-swap fab fa-linkedin iconcontact-dark fa-2x"></i></a>
+        <a href=""><i class="iconcontact-swap fab fa-instagram iconcontact-dark fa-2x"></i></a></h2>
+    <p>Designed by Satyam Baldawa & Shreya Kothavale</p>
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
