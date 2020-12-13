@@ -6,13 +6,6 @@ html{
   -ms-text-size-adjust:100%;
   -webkit-text-size-adjust:100%
   }
-
-h1{
-  text-align: center;
-  font-size:50px;
-  font-family: "Montserrat", sans-serif;
-  margin:2%
-}
 body{
   margin:1
 }
@@ -29,7 +22,6 @@ body{
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
 .w3-third{
   flex: 1 0 24rem;
-
 	overflow: hidden;
 }
 .w3-third img{
@@ -39,4 +31,67 @@ body{
 }
 .w3-third img:hover {
 	transform: scale(1.1);
+}
+.body-light {
+    background-color: white;
+    color: black;
+}
+
+.body-dark {
+    background-color: #212121;
+    color: white;
+}
+
+.main-body-lg-div-light {
+    background-color: white;
+    transition: background-color 1s, color 1s;
+}
+
+.main-body-lg-div-light:hover {
+    background-color: #212121;
+    color: white;
+}
+
+.main-body-lg-div-dark {
+    background-color: #212121;
+    transition: background-color 1s, color 1s;
+}
+
+.main-body-lg-div-dark:hover {
+    background-color: white;
+    color: black;
+}
+/*End Section*/
+.end-section-light {
+    padding: 30px;
+    text-align: center;
+    background-color: #cbcbcb;
+    color: black;
+}
+
+.iconcontact-light {
+    margin: 30px;
+    color: black;
+    transition: color 1s;
+}
+
+.iconcontact-light:hover {
+    color: #565656;
+}
+
+.end-section-dark {
+    padding: 30px;
+    text-align: center;
+    background-color: #181818;
+    color: white;
+}
+
+.iconcontact-dark {
+    margin: 30px;
+    color: white;
+    transition: color 1s;
+}
+
+.iconcontact-dark:hover {
+    color: #b3b3b3;
 }
