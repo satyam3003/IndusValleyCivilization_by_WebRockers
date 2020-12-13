@@ -50,3 +50,67 @@ h3,h6{
 .panel-body img:hover {
 	transform: scale(1.30);
 }
+
+.body-light {
+    background-color: white;
+    color: black;
+}
+
+.body-dark {
+    background-color: #212121;
+    color: white;
+}
+
+.main-body-lg-div-light {
+    background-color: white;
+    transition: background-color 1s, color 1s;
+}
+
+.main-body-lg-div-light:hover {
+    background-color: #212121;
+    color: white;
+}
+
+.main-body-lg-div-dark {
+    background-color: #212121;
+    transition: background-color 1s, color 1s;
+}
+
+.main-body-lg-div-dark:hover {
+    background-color: white;
+    color: black;
+}
+/*End Section*/
+.end-section-light {
+    padding: 30px;
+    text-align: center;
+    background-color: #cbcbcb;
+    color: black;
+}
+
+.iconcontact-light {
+    margin: 30px;
+    color: black;
+    transition: color 1s;
+}
+
+.iconcontact-light:hover {
+    color: #565656;
+}
+
+.end-section-dark {
+    padding: 30px;
+    text-align: center;
+    background-color: #181818;
+    color: white;
+}
+
+.iconcontact-dark {
+    margin: 30px;
+    color: white;
+    transition: color 1s;
+}
+
+.iconcontact-dark:hover {
+    color: #b3b3b3;
+}
