@@ -9,6 +9,7 @@ $(' .btn-dark ').on("click", function () {
     $(".comment-display-body-swap").removeClass("comment-display-body-light").addClass("comment-display-body-dark");
     $(".para-rest-swap").removeClass("para-rest-light").addClass("para-rest-dark");
     $(".para-text-rest-swap").removeClass("para-text-rest-light").addClass("para-text-rest-dark");
+    $(".main-card-swap").removeClass("main-card-light").addClass("main-card-dark");
 });
 
 
@@ -23,4 +24,5 @@ $(' .btn-light ').on("click", function () {
     $(".comment-display-body-swap").removeClass("comment-display-body-dark").addClass("comment-display-body-light");
     $(".para-rest-swap").removeClass("para-rest-dark").addClass("para-rest-light");
     $(".para-text-rest-swap").removeClass("para-text-rest-dark").addClass("para-text-rest-light");
+    $(".main-card-swap").removeClass("main-card-dark").addClass("main-card-light");
 });

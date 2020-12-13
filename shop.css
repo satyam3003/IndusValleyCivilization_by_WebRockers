@@ -1,54 +1,94 @@
-
-
-h3{font-size:24px}
-h6{font-size:16px}
-h3,h6{
-  font-family:"Segoe UI",Arial,sans-serif;
-  font-weight:400;
-  margin:10px 0
-}
-.w3-button:disabled{cursor:not-allowed;opacity:0.3}
-.w3-button{
-  width:100%;
-  text-align:left;
-  padding:8px 16px;
-  border:none;
-  display:inline-block;
-  padding:8px 16px;
-  font-family:"Segoe UI",Arial,sans-serif;font-weight:400;
-  vertical-align:middle;
-  overflow:hidden;
-  text-decoration:none;
-  color:white;
-  background-color:rgba(0,0,0,0.7);
-  text-align:center;
-  cursor:pointer;
-  white-space:nowrap
+h3 {
+    font-size: 24px
 }
 
-.w3-button{
-  -webkit-touch-callout:none;
-  -webkit-user-select:none;
-  -khtml-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none
-}
-.w3-button:hover{background-color:#ccc;color:#000}
-
-.panel-body{
-	overflow: hidden;
+h6 {
+    font-size: 16px
 }
 
-.panel-body img{
-  display: block;
-  object-fit: cover;
-  overflow: hidden;
-	transition: transform 400ms ease-out;
+h3, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+.w3-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
+
+.w3-button {
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.btn-color{
+    color: white;
+    background-color: rgba(105, 105, 105, 0.7);
+}
+
+.btn-color:hover {
+    background-color: #ccc;
+    color: #000
+}
+
+.w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.main-card-light{
+    background-color: #efefef;
+    color: black;
+    transition: background-color 2s, color 2s ;
+}
+
+.main-card-light:hover{
+    background-color: #1f1f1f;
+    color: #eaeaea;
+}
+
+.main-card-dark{
+    background-color: #181818;
+    color: #ececec;
+    transition: background-color 1s, color 1s ;
+}
+
+.main-card-dark:hover{
+    background-color: #efefef;
+    color: black;
+}
+
+.panel-body {
+    overflow: hidden;
+}
+
+.panel-body img {
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 400ms ease-out;
 
 }
+
 .panel-body img:hover {
-	transform: scale(1.30);
+    transform: scale(1.10);
 }
 
 .body-light {
@@ -80,6 +120,7 @@ h3,h6{
     background-color: white;
     color: black;
 }
+
 /*End Section*/
 .end-section-light {
     padding: 30px;
