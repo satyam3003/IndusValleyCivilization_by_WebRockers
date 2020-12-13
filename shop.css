@@ -75,6 +75,10 @@ h3, h6 {
     color: black;
 }
 
+.panel{
+    margin: 10px 0;
+}
+
 .panel-body {
     overflow: hidden;
 }
